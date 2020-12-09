@@ -1,7 +1,7 @@
 name: Add milestone to pull requests
 on:
   pull_request_target:
-    types: [closed]
+    types: [assigned,unassigned,labeled,unlabeled,opened,edited,closed,reopened,synchronize,ready_for_review,locked,unlocked,review_requested,review_request_removed]
     branches:
       - master
 
